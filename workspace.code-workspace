@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "tutorial",
+			"path": "..\\tutorial"
+		},
+		{
+			"name": "Camera Roll",
+			"path": "..\\..\\Pictures\\Camera Roll"
+		},
+		{
+			"path": "..\\practice layout"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assignment"
+	}
+}

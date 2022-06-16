@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca:wght@700&display=swap");
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: aliceblue;
+    
+
+}
+main{
+    width: 700px;
+    margin: 50px auto;  
+    display: flex;
+    
+}
+    
+   
+img{
+    padding-bottom: 20px;
+}
+.top-div{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 40px;
+    flex: 1 1 0;
+    align-self: stretch;
+}
+ h3{
+    color:white;
+    font: size 15px;
+    padding-bottom: 20px;
+ font-family: "Big Shoulders Display",cursive;
+font-weight: 700;
+}
+p{
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    font-family:"Lexend Deca", sans-serif;
+  font-weight: 400;
+  color:hsla(0, 0%, 100%, 0.75) ;
+}
+.second-div{
+    background-color:  hsl(184, 100%, 22%) ;
+ padding: 40px;
+    flex: 1 1 0;
+    align-self: stretch;  
+}
+.third-div{
+    background-color:  hsl(179, 100%, 13%);;
+    padding: 40px;
+    flex: 1 1 0;
+    align-self: stretch;
+ 
+}
+button{
+    padding: 12px;
+     width: auto;
+    border: none;
+     cursor: pointer;
+    float: right;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: bold;
+    background-color:  hsl(0, 0%, 95%);
+        }
+    button:hover{
+        background-color: aquamarine;
+    }
+    
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+}

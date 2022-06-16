@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID HTML</title>
+  </head>
+  <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body {
+          background-color: rgb(207, 181, 148);
+          display: grid;
+          place-items: center;
+          min-height: 50vh;
+        }
+        main {
+          display: grid;
+        
+          
+          grid-template-areas:
+            "A A B" 
+            "C D D"
+            "C E E ";
+          gap: 5px;
+          width: 800px;
+          margin: auto;padding: 40px;
+        }
+
+        main div {
+          border-radius: 10px;
+          padding: 5em;
+          text-align: center;
+        }
+        .item-a {
+          background-color: hsl(0, 100%, 74%);
+          grid-area: A;
+        }
+        .item-b {
+          background-color: hsl(31, 77%, 52%);
+          grid-area: B;
+        }
+        .item-c {
+          background-color: hsl(153, 80%, 21%);
+          grid-area: C;
+        }
+        .item-d {
+          background-color: hsl(248, 32%, 49%);
+          grid-area: D;
+        }
+        .item-e {
+          background-color: hsl(248, 32%, 49%);
+          grid-area: E;
+          
+        }
+        
+      </style>
+  <body>
+    <main>
+      <div class="item-a"></div>
+      <div class="item-b"></div>
+      <div class="item-c"></div>
+      <div class="item-d"></div>
+      <div class="item-e"></div>
+    </main>
+  </body>
+</html>
