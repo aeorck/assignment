@@ -58,9 +58,6 @@ h1,p{
 
 }
 button{
-    
-   
-
  margin-top: 15px;
  padding: 10px  ;
 border-radius: 10px;
@@ -101,13 +98,14 @@ button{
   .main-div {
     display: flex;
     flex-direction: column;
+    width: 80%;
   }
 }
 
 @media (min-width: 375px) {
     .main-div{
         flex-direction: column;
-        display: flex;
+        width: 70%;
     }
 
 }
