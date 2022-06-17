@@ -27,19 +27,12 @@ body{
     color: white;
     margin: auto;
     padding: 70px  200px ;
-    /* flex-wrap: wrap; */
-    
-    /* width: 80%; */
-
-
-    
 }
 h5{
 background-color:hsl(248, 32%, 49%) ;
 padding: 10px;
 margin-bottom: 10px;
 border-radius: 10px;
-/* font-size: 15px; */
 text-align: center;
 
 }
